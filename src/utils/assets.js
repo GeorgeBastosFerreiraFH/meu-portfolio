@@ -21,8 +21,10 @@ import meteora from "../assets/images/meteora.png";
 import vidFlow from "../assets/images/vidFlow.png";
 import fokus from "../assets/images/fokus.png";
 import newsletter from "../assets/images/newsletter.png";
+import casaDoPai from "../assets/images/casaDoPai.png";
 
 export const icons = {
+  casaDoPai,
   newsletter,
   fokus,
   vidFlow,

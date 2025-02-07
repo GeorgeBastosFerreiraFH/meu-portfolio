@@ -1,4 +1,4 @@
-import ProjectCard from "../components/home/ProjectCard";
+import CartaoProjeto from "../components/CartaoProjeto";
 import { projetos } from "../utils/data";
 
 const Projetos = () => {
@@ -9,7 +9,7 @@ const Projetos = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projetos.map((projeto) => (
-          <ProjectCard key={projeto.id} projeto={projeto} />
+          <CartaoProjeto key={projeto.id} projeto={projeto} />
         ))}
       </div>
     </div>

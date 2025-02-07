@@ -1,6 +1,6 @@
 import { projetos } from "../utils/data";
 import HeroSection from "../components/home/HeroSection";
-import ProjectCard from "../components/home/ProjectCard";
+import ProjectCard from "../components/CartaoProjeto";
 import TechStack from "../components/home/TechStack";
 import ContactSection from "../components/home/ContactSection";
 

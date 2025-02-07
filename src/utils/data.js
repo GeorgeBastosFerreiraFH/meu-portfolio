@@ -259,25 +259,52 @@ export const projetos = [
     descricao:
       "VidFlow é um site desenvolvido com HTML, CSS, JavaScript e Node.js, que exibe uma lista de vídeos provenientes de uma API simulada. O projeto tem como principal objetivo a exibição dinâmica de vídeos, alimentados por um arquivo JSON armazenado no backend, com suporte para busca em tempo real e filtragem por categoria. A funcionalidade de busca permite ao usuário encontrar vídeos enquanto digita.",
     imagem: icons.vidFlow,
-    tecnologias: ["HTML", "CSS", "Javascript", "NodeJS", "API"],
+    tecnologias: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "NodeJS",
+      "API",
+      "RESTful API",
+      "Responsividade",
+    ],
     github: "https://github.com/GeorgeBastosFerreiraFH/nodejs-videflow-vite/",
     demo: "https://nodejs-videflow-vite-topaz.vercel.app/",
     destaque: true,
   },
   {
     id: 2,
+    titulo: "Sistema de Gestão de Membros - Igreja Casa do Pai",
+    descricao:
+      "Desenvolvi um sistema de gestão para a igreja Casa do Pai, com login segmentado em três níveis: Administrador (controle total), Líder de Célula (gestão da própria célula) e Usuário Comum (acesso aos próprios dados). \n\nA plataforma conta com cadastro inteligente, verificação de e-mail para evitar duplicidade, recuperação de senha com autenticação e gerenciamento eficiente de membros. Tudo isso em uma API robusta desenvolvida com Node.js e PostgreSQL, garantindo segurança, escalabilidade e desempenho.",
+    imagem: icons.casaDoPai,
+    tecnologias: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Tailwind",
+      "NodeJS",
+      "PostgreSQL",
+      "RESTful API",
+    ],
+    github: "https://github.com/GeorgeBastosFerreiraFH/casaDoPai.v3.1",
+    demo: "https://casa-do-pai-v3-1.vercel.app/",
+    destaque: true,
+  },
+  {
+    id: 3,
     titulo: "Serenatto - Café e Bistrô",
     descricao:
       "Landing page responsiva desenvolvida com Bootstrap 5, focando na criação de um design limpo e adaptável, garantindo uma experiência otimizada para diferentes dispositivos e tamanhos de tela.",
     imagem: icons.serenatto,
-    tecnologias: ["HTML", "CSS", "Javascript"],
+    tecnologias: ["HTML", "CSS", "Javascript", "Bootstrap", "Responsividade"],
     github: "https://github.com/GeorgeBastosFerreiraFH/ProjetoAluraSerenatto",
     demo: "https://projeto-alura-serenatto.vercel.app/",
     destaque: true,
   },
 
   {
-    id: 3,
+    id: 4,
     titulo: "Jogo do número secreto",
     descricao:
       "Jogo do Número Secreto: Desenvolvido com JavaScript e conta com a funcionalidade de fornecer dicas faladas ao jogador, informando se ele acertou ou não. Utilizei a função exibirTextoNaTela para exibir o texto na tela e também para reproduzir as dicas de forma audível utilizando a API responsiveVoice.",
@@ -288,7 +315,7 @@ export const projetos = [
     destaque: false,
   },
   {
-    id: 4,
+    id: 5,
     titulo: "Alura Books",
     descricao:
       "O Alura Books é um site desenvolvido durante o curso para praticar CSS, focando em técnicas como Flexbox e Grid, além da criação de um carrossel de imagens. A responsividade foi um ponto essencial para garantir a melhor experiência de navegação em diferentes dispositivos.",
@@ -299,7 +326,7 @@ export const projetos = [
     destaque: false,
   },
   {
-    id: 5,
+    id: 6,
     titulo: "Jogo do número secreto com comando de voz",
     descricao:
       "O Jogo do Número Secreto é uma aplicação interativa em JavaScript que utiliza comandos de voz. O usuário fala um número e o sistema responde, dizendo se o número é maior ou menor que o valor secreto, criando uma experiência mais imersiva e acessível.",
@@ -311,7 +338,7 @@ export const projetos = [
     destaque: true,
   },
   {
-    id: 6,
+    id: 7,
     titulo: "Culturama",
     descricao:
       "Projeto desenvolvido para praticar o uso de Flexbox e Grid, explorando técnicas de layout e organização de elementos na página, com foco em responsividade e adaptação a diferentes tamanhos de tela.",
@@ -322,7 +349,7 @@ export const projetos = [
     destaque: false,
   },
   {
-    id: 7,
+    id: 8,
     titulo: "Code Connect",
     descricao:
       "Este site foi desenvolvido no início do meu aprendizado com React, com foco em entender como iniciar um projeto usando React e Vite. Foi uma prática inicial para consolidar os conceitos de configuração de ambiente e estruturação de projetos em React.",
@@ -334,7 +361,7 @@ export const projetos = [
   },
 
   {
-    id: 8,
+    id: 9,
     titulo: "Newsletter",
     descricao:
       "Tela de newsletter com design moderno e responsivo, focando em uma interface limpa e atraente para captar e-mails de forma eficiente.",
@@ -345,7 +372,7 @@ export const projetos = [
     destaque: false,
   },
   {
-    id: 9,
+    id: 10,
     titulo: "Alura Fokus",
     descricao:
       "Alura Fokus é um projeto desenvolvido com JavaScript, HTML e CSS, inspirado em técnicas de produtividade. Ele conta com três despertadores (foco, descanso longo e descanso curto) que emitem sons ao terminar o tempo. Além disso, possui uma lista de tarefas com funcionalidades de adicionar, editar e deletar, implementando um CRUD para facilitar a gestão das atividades.",
@@ -356,7 +383,7 @@ export const projetos = [
     destaque: false,
   },
   {
-    id: 10,
+    id: 11,
     titulo: "HZC - Musicas e Videos",
     descricao:
       "O HZC é um site fictício desenvolvido como parte do meu treinamento em CSS, focando em habilidades essenciais como o posicionamento de cards, responsividade e a criação de um menu hambúrguer funcional.",
@@ -367,7 +394,7 @@ export const projetos = [
     destaque: false,
   },
   {
-    id: 11,
+    id: 12,
     titulo: "Meteora",
     descricao:
       "Landing page responsiva desenvolvida com Bootstrap 5, focando na criação de um design limpo e adaptável, garantindo uma experiência otimizada para diferentes dispositivos e tamanhos de tela.",

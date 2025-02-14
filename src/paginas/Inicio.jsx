@@ -1,11 +1,11 @@
-import { projetos } from "../utils/data";
+import { projetosPessoais, projetosCursos } from "../utils/data";
 import HeroSection from "../components/home/HeroSection";
 import ProjectCard from "../components/CartaoProjeto";
 import TechStack from "../components/home/TechStack";
 import ContactSection from "../components/home/ContactSection";
 
 const Inicio = () => {
-  const projetosDestaque = projetos
+  const projetosDestaque = [...projetosPessoais, ...projetosCursos]
     .filter((projeto) => projeto.destaque)
     .slice(0, 3);
 

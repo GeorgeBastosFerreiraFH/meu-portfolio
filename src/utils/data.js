@@ -1,258 +1,219 @@
-import { icons } from "./assets";
+import { icons } from "./iconesImport";
 
 export const dadosCertificados = [
   {
     titulo:
       "Bootstrap 5: novos recursos e práticas recomendadas de HTML, CSS e JavaScript",
     icone: icons.bootstrap,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/50a27a59-64e5-4c0c-9d38-9579973ce894",
+    urlCertificado: "/certificados/bootstrap5.pdf",
   },
   {
     titulo: "Bootstrap5: crie uma landing page responsiva",
     icone: icons.bootstrap,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/5d7d16f0-72e3-4df0-93a8-d82453c149f0",
+    urlCertificado: "/certificados/bootstrap5ladingPagesResponsivas.pdf",
   },
   {
     titulo: "Engenharia de Prompt: criando prompts eficazes para IA Generativa",
     icone: icons.ai,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/0245b0e0-aa61-483f-b44f-2823ef9a1209?lang",
+    urlCertificado: "/certificados/engPrompt.pdf",
   },
 
   {
     titulo:
       "Node.js e terminal: dominando o ambiente de desenvolvimento front-end",
     icone: icons.nodejs,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/93ee1ffd-3c3e-493b-8d2d-60f4df6308d5",
+    urlCertificado: "/certificados/NodeDominandoTerminal.pdf",
   },
 
   {
     titulo:
       "JavaScript e HTML: desenvolva um jogo e pratique lógica de programação",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/88a2c18e-947a-4111-953c-543bcd6f8c27?lang",
+    urlCertificado: "/certificados/JsJogo&Logica.pdf",
   },
   {
     titulo:
       "JavaScript e HTML: pratique lógica com desenhos, animações e um jogo",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/2f988897-b70d-466c-bea8-7c8b185b2aa7?lang",
+    urlCertificado: "/certificados/JsLogicaDesenho.pdf",
   },
   {
     titulo: "JavaScript: explorando a linguagem",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/f51a8c37-edc4-4c40-bfe8-c6f388ae8d0d?lang",
+    urlCertificado: "/certificados/JsExplorandoLinguagens.pdf",
   },
   {
     titulo: "Desenvolva aplicações Web com JavaScript",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/degree/certificate/1e02bbfe-e30b-498c-87d4-c20a4c176058",
+    urlCertificado: "/certificados/FormacaoJavaScript.pdf",
   },
   {
     titulo: "React: desenvolva aplicações web usando JSX e Hooks",
     icone: icons.react,
-    urlCertificado:
-      "https://cursos.alura.com.br/degree/certificate/45ff0b9c-28c6-4bee-b731-f7f8936fef5f",
+    urlCertificado: "/certificados/FormacaoReactWebJSX&Hooks.pdf",
   },
   {
     titulo: "JavaScript: consumindo e tratando dados de uma API",
     icone: icons.api,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/67e11a74-0fe7-46c0-a39a-3c086bed36b2",
+    urlCertificado: "/certificados/JsConsumindoAPI.pdf",
   },
   {
     titulo: "JavaScript: criando requisições",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/4ff782d8-0a93-4f46-8982-96ee7cffc106",
+    urlCertificado: "/certificados/JsCriandoRequisicoes.pdf",
   },
   {
     titulo: "JavaScript: métodos de array",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/83e1a0be-aa6f-41fb-9d3d-3f2d44ab2f52",
+    urlCertificado: "/certificados/JsArray.pdf",
   },
   {
     titulo: "JavaScript: validando formulários",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/1d61ab09-6b8a-4661-8ab7-5237dca202cb",
+    urlCertificado: "/certificados/JsValidandoForms.pdf",
   },
   {
     titulo: "Formação: HTML e CSS",
     icone: icons.iconeHtmleCss,
-    urlCertificado:
-      "https://cursos.alura.com.br/degree/certificate/7344869d-5375-475f-bd2e-6c7f6f5d3744",
+    urlCertificado: "/certificados/FormacaoHtmlCss.pdf",
   },
 
   {
     titulo: "React: configurando e estruturando projetos com Vite",
     icone: icons.react,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/a595b409-8446-4490-8c26-c7306d47ab1c",
+    urlCertificado: "/certificados/ReactEstruturandoVite.pdf",
   },
   {
     titulo: "React: construíndo componentes com JSX",
     icone: icons.react,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/600f381d-caf4-4587-9642-a309b82cd8f8",
+    urlCertificado: "/certificados/ReactComponentesJSX.pdf",
   },
   {
     titulo: "CSS: Flexbox e layouts responsivos",
     icone: icons.css3,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/de6726e9-49fe-4387-8a28-05c290fad0c6",
+    urlCertificado: "/certificados/cssFlexboxResponsivo.pdf",
   },
   {
     titulo: "CSS: construindo layouts com Grid",
     icone: icons.css3,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/8cf8a10b-e349-4815-92e7-ba0b170e4ec7",
+    urlCertificado: "/certificados/cssLayoutsGrid.pdf",
   },
   {
     titulo: "A partir do zero: HTML e CSS para projetos web",
     icone: icons.html5,
-    urlCertificado:
-      "https://cursos.alura.com.br/degree/certificate/0952f1a8-fb44-40f0-a109-934a727cf31e",
+    urlCertificado: "/certificados/FormacaoHtmlAPartirDoZero.pdf",
   },
   {
     titulo: "CSS: aprofunde em estilos",
     icone: icons.css3,
-    urlCertificado:
-      "https://cursos.alura.com.br/degree/certificate/280c8669-a20a-4b54-a5de-bd05bb46559f",
+    urlCertificado: "/certificados/FormacaoCssAprofundandoEmEstilos.pdf",
   },
   {
     titulo: "Pratique HTML e CSS em projetos Web",
     icone: icons.html5,
-    urlCertificado:
-      "https://cursos.alura.com.br/degree/certificate/db9f4e1f-f235-4e5d-bdf1-62afea3a7cae",
+    urlCertificado: "/certificados/FormacaoHtmlCssProjetoWeb.pdf",
   },
   {
     titulo: "HTML e CSS: Classes, posicionamento e Flexbox",
     icone: icons.css3,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/f1a118d4-9736-4a73-b170-5b52123b56b6",
+    urlCertificado: "/certificados/htmlCssPosicionamentoFlexbox.pdf",
   },
   {
     titulo:
       "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags",
     icone: icons.html5,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/3a7de040-fed8-4bd5-9549-030961891113",
+    urlCertificado: "/certificados/htmlCssEstruturas&Tags.pdf",
   },
   {
     titulo:
       "HTML e CSS: trabalhando com responsividade e publicação de projetos",
     icone: icons.css3,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/ad06ca07-1fa1-4f64-b973-c72b4b775117",
+    urlCertificado: "/certificados/responsividade&Publicacoes.pdf",
   },
   {
     titulo: "JavaScript para Web: Crie páginas dinâmicas",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/f3e81f4a-d239-40fb-bdfb-2c01f8ad5ce2",
+    urlCertificado: "/certificados/JsWebPaginasDinamicas.pdf",
   },
   {
     titulo:
       "JavaScript: explorando a manipulação de elementos e da localStorage",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/86f2bfe2-3461-467b-8b54-6198899a6eb0",
+    urlCertificado: "/certificados/JsLocalStorage.pdf",
   },
   {
     titulo: "JavaScript: manipulando elementos no DOM",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/4e6eb521-79f8-44e4-8224-4638a781556e",
+    urlCertificado: "/certificados/JsDOM.pdf",
   },
   {
     titulo: "JavaScript: validações e reconhecimento de voz",
     icone: icons.js,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/a2173100-c1f9-411b-b38d-0569541f60c7",
+    urlCertificado: "/certificados/JsReconhecimentoDeVoz.pdf",
   },
   {
     titulo: "Lógica de programação: explore funções e listas",
     icone: icons.logica,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/676cf232-d1aa-4af9-807d-23547100e796",
+    urlCertificado: "/certificados/JsLogicaFuncoes&Listas.pdf",
   },
   {
     titulo: "Lógica de programação: mergulhe em programação com JavaScript",
     icone: icons.logica,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/4c719fb2-2bb4-4195-97e0-f3de94ced069",
+    urlCertificado: "/certificados/LogicaProgramacaoMergulheJS.pdf",
   },
   {
     titulo: "Praticando CSS: Grid e Flexbox",
     icone: icons.css3,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/78c767c0-d794-4cee-a3e8-cc19f0936493",
+    urlCertificado: "/certificados/CssGrid&Flexbox.pdf",
   },
   {
     titulo: "SASS e CSS: estilizando um site",
     icone: icons.sass,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/bbbd0ef1-5be6-4ec6-a8c3-deaddb47a693",
+    urlCertificado: "/certificados/SASS&CSS.pdf",
   },
   {
     titulo: "Tailwind CSS: estilizando a sua página com classes utilitárias",
     icone: icons.tailwind,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/ac2d1952-77d5-42ee-bde2-1d0eb4157948",
+    urlCertificado: "/certificados/TailwindCSS.pdf",
   },
   {
     titulo: "CSS: dispondo elementos com Flexbox e Grid",
     icone: icons.css3,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/9180c6d6-a403-4d91-9b4c-1fb69c2d82b9",
+    urlCertificado: "/certificados/cssFlexbox&Grid.pdf",
   },
   {
     titulo: "HTML e CSS: praticando HTML/CSS",
     icone: icons.iconeHtmleCss,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/67c9a365-0058-43e5-b3f5-42051541e26e",
+    urlCertificado: "/certificados/praticandoHtmlCss.pdf",
   },
   {
     titulo: "HTML5 e CSS3 parte 1: crie uma página da Web",
     icone: icons.iconeHtmleCss,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/6c19411a-95bd-4285-8633-3ef7750a46c3",
+    urlCertificado: "/certificados/htmlCssParte1.pdf",
   },
   {
     titulo: "HTML5 e CSS3 parte 2: posicionamento, listas e navegação",
     icone: icons.iconeHtmleCss,
-    urlCertificado: "",
+    urlCertifica: "/certificados/htmlCssParte2.pdf",
   },
   {
-    titulo: "HTML5 e CSS3 parte 2: posicionamento, listas e navegação",
+    titulo: "HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas",
     icone: icons.iconeHtmleCss,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/079b1de8-2258-4be1-8f49-ec4e4866c15f",
+    urlCertificado: "/certificados/htmlCssParte3.pdf",
   },
   {
     titulo: "HTML5 e CSS3 parte 4: avançando no CSS",
     icone: icons.iconeHtmleCss,
-    urlCertificado:
-      "https://cursos.alura.com.br/certificate/04160b51-6f70-490c-a942-11a7971d6170",
+    urlCertificado: "/certificados/htmlCssParte1.pdf",
   },
   {
     titulo: "Super módulo de Node.js",
     icone: icons.nodejs,
-    urlCertificado:
-      "https://www.linkedin.com/in/ge-be88/details/certifications/1732548631779/single-media-viewer/?type=IMAGE&profileId=ACoAAEqTmwgBQeYbZGhT7zsObQ0zoxy3OjOioDM",
+    urlCertificado: "/certificados/superModuloNodeJS.pdf",
   },
 ];
 
-export const projetos = [
+export const projetosCursos = [
   {
     id: 1,
     titulo: "VidFlow",
@@ -272,25 +233,7 @@ export const projetos = [
     demo: "https://nodejs-videflow-vite-topaz.vercel.app/",
     destaque: true,
   },
-  {
-    id: 2,
-    titulo: "Sistema de Gestão de Membros - Igreja Casa do Pai",
-    descricao:
-      "Desenvolvi um sistema de gestão para a igreja Casa do Pai, com login segmentado em três níveis: Administrador (controle total), Líder de Célula (gestão da própria célula) e Usuário Comum (acesso aos próprios dados). \n\nA plataforma conta com cadastro inteligente, verificação de e-mail para evitar duplicidade, recuperação de senha com autenticação e gerenciamento eficiente de membros. Tudo isso em uma API robusta desenvolvida com Node.js e PostgreSQL, garantindo segurança, escalabilidade e desempenho.",
-    imagem: icons.casaDoPai,
-    tecnologias: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Tailwind",
-      "NodeJS",
-      "PostgreSQL",
-      "RESTful API",
-    ],
-    github: "https://github.com/GeorgeBastosFerreiraFH/casaDoPai.v3.1",
-    demo: "https://casa-do-pai-v3-1.vercel.app/",
-    destaque: true,
-  },
+
   {
     id: 3,
     titulo: "Serenatto - Café e Bistrô",
@@ -315,7 +258,7 @@ export const projetos = [
     destaque: false,
   },
   {
-    id: 5,
+    id: 2,
     titulo: "Alura Books",
     descricao:
       "O Alura Books é um site desenvolvido durante o curso para praticar CSS, focando em técnicas como Flexbox e Grid, além da criação de um carrossel de imagens. A responsividade foi um ponto essencial para garantir a melhor experiência de navegação em diferentes dispositivos.",
@@ -403,5 +346,27 @@ export const projetos = [
     github: "https://github.com/GeorgeBastosFerreiraFH/Bootstrap-Meteora",
     demo: "https://bootstrap-meteora-three.vercel.app/",
     destaque: false,
+  },
+];
+
+export const projetosPessoais = [
+  {
+    id: 2,
+    titulo: "Sistema de Gestão de Membros - Igreja Casa do Pai",
+    descricao:
+      "Desenvolvi um sistema de gestão para a igreja Casa do Pai, com login segmentado em três níveis: Administrador (controle total), Líder de Célula (gestão da própria célula) e Usuário Comum (acesso aos próprios dados). \n\nA plataforma conta com cadastro inteligente, verificação de e-mail para evitar duplicidade, recuperação de senha com autenticação e gerenciamento eficiente de membros. Tudo isso em uma API robusta desenvolvida com Node.js e PostgreSQL, garantindo segurança, escalabilidade e desempenho. ",
+    imagem: icons.casaDoPai,
+    tecnologias: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Tailwind",
+      "NodeJS",
+      "PostgreSQL",
+      "RESTful API",
+    ],
+    github: "https://github.com/GeorgeBastosFerreiraFH/casaDoPai.v3.1",
+    demo: "https://casa-do-pai-v3-1.vercel.app/",
+    destaque: true,
   },
 ];

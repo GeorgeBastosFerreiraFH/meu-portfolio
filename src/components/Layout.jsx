@@ -1,10 +1,6 @@
 import { useState } from "react";
-import { Link, Routes, Route, useLocation } from "react-router-dom";
+import { Link, Routes, Route, useLocation, Outlet } from "react-router-dom";
 import AlternadorTema from "./AlternadorTema";
-import Inicio from "../paginas/Inicio";
-import SobreMim from "../paginas/SobreMim";
-import Certificados from "../paginas/Certificados";
-import Projetos from "../paginas/Projetos";
 import { Github, Linkedin, Phone, Menu, X } from "lucide-react";
 
 const Layout = () => {
@@ -165,12 +161,7 @@ const Layout = () => {
       )}
 
       <main className="pt-16 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <Routes>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/projetos" element={<Projetos />} />
-          <Route path="/certificados" element={<Certificados />} />
-          <Route path="/sobre" element={<SobreMim />} />
-        </Routes>
+        <Outlet />
       </main>
     </div>
   );

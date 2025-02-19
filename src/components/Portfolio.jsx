@@ -1,21 +1,5 @@
 import ProjectCard from "./CartaoProjeto";
 
-const projectsData = [
-  {
-    title: "Projeto 1",
-    description: "Descrição do Projeto 1",
-    coverImage: "https://picsum.photos/seed/1/300/200",
-    link: "https://exemplo.com/projeto1",
-  },
-  {
-    title: "Projeto 2",
-    description: "Descrição do Projeto 2",
-    coverImage: "https://picsum.photos/seed/2/300/200",
-    link: "https://exemplo.com/projeto2",
-  },
-  // Adicione mais projetos conforme necessário
-];
-
 const Portfolio = () => {
   return (
     <div className="container mx-auto px-4">

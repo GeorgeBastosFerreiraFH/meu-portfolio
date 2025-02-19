@@ -9,7 +9,7 @@ import sass from "../assets/images/sass.png";
 import tailwind from "../assets/images/tailwind.svg";
 import js from "../assets/images/js.png";
 import api from "../assets/images/api.png";
-import logica from "../assets/images/logica.svg";
+import logica from "../assets/images/logica.png";
 import hzc from "../assets/images/hzc.png";
 import secretoJS from "../assets/images/jogoNumeroSecretoJS.png";
 import aluraBooks from "../assets/images/aluraBooks.png";

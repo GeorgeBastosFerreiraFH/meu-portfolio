@@ -22,8 +22,10 @@ import vidFlow from "../assets/images/vidFlow.png";
 import fokus from "../assets/images/fokus.png";
 import newsletter from "../assets/images/newsletter.png";
 import casaDoPai from "../assets/images/casaDoPai.png";
+import loginCadastro from "../assets/images/login-cadastro.png";
 
 export const icons = {
+  loginCadastro,
   casaDoPai,
   newsletter,
   fokus,

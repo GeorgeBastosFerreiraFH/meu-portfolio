@@ -351,7 +351,7 @@ export const projetosCursos = [
 
 export const projetosPessoais = [
   {
-    id: 2,
+    id: 1,
     titulo: "Sistema de Gestão de Membros - Igreja Casa do Pai",
     descricao:
       "Desenvolvi um sistema de gestão para a igreja Casa do Pai, com login segmentado em três níveis: Administrador (controle total), Líder de Célula (gestão da própria célula) e Usuário Comum (acesso aos próprios dados). \n\nA plataforma conta com cadastro inteligente, verificação de e-mail para evitar duplicidade, recuperação de senha com autenticação e gerenciamento eficiente de membros. Tudo isso em uma API robusta desenvolvida com Node.js e PostgreSQL, garantindo segurança, escalabilidade e desempenho. ",
@@ -367,6 +367,17 @@ export const projetosPessoais = [
     ],
     github: "https://github.com/GeorgeBastosFerreiraFH/casaDoPai.v3.1",
     demo: "https://casa-do-pai-v3-1.vercel.app/",
+    destaque: true,
+  },
+  {
+    id: 2,
+    titulo: "Tela de Login e Cadastro 🔐",
+    descricao:
+      "Este projeto é uma interface simples e funcional de login e cadastro, que simula requisições a uma API utilizando dados mockados. Validação de E-mail: O sistema verifica se o e-mail informado já está cadastrado em uma lista pré-definida. Cadastro Simulado: Caso o e-mail não exista, ele é adicionado à lista e exibida uma mensagem de sucesso. Login Simulado: Apenas e-mails previamente cadastrados podem acessar. Experiência Fluida: O usuário pode alternar entre as telas de login e cadastro facilmente. O objetivo deste projeto é demonstrar conhecimentos em manipulação do DOM, eventos JavaScript e simulação de chamadas assíncronas.",
+    imagem: icons.loginCadastro,
+    tecnologias: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/GeorgeBastosFerreiraFH/Login-Cadastro",
+    demo: "https://login-cadastro-beryl.vercel.app/",
     destaque: true,
   },
 ];

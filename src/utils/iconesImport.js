@@ -3,10 +3,10 @@ import ai from "../assets/images/ai.png";
 import bootstrap from "../assets/images/bootstrap.png";
 import nodejs from "../assets/images/nodejs.png";
 import html5 from "../assets/images/html.png";
-import css3 from "../assets/images/css3.svg";
-import react from "../assets/images/react.svg";
+import css3 from "../assets/images/css.png";
+import react from "../assets/images/react.png";
 import sass from "../assets/images/sass.png";
-import tailwind from "../assets/images/tailwind.svg";
+import tailwind from "../assets/images/tailwind.png";
 import js from "../assets/images/js.png";
 import api from "../assets/images/api.png";
 import logica from "../assets/images/logica.png";
@@ -23,8 +23,10 @@ import fokus from "../assets/images/fokus.png";
 import newsletter from "../assets/images/newsletter.png";
 import casaDoPai from "../assets/images/casaDoPai.png";
 import loginCadastro from "../assets/images/login-cadastro.png";
+import apiRickMorty from "../assets/images/rick-and-morty-api.png";
 
 export const icons = {
+  apiRickMorty,
   loginCadastro,
   casaDoPai,
   newsletter,

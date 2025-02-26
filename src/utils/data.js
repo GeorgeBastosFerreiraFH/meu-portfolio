@@ -371,6 +371,16 @@ export const projetosPessoais = [
   },
   {
     id: 2,
+    titulo: "Consumindo Api do Rick e Morty",
+    descricao: "Desenvolvi um projeto consumindo a API do Rick and Morty, exibindo informações detalhadas sobre os personagens, episódios e localizações.\n\nUtilizei React + Vite para um frontend rápido e eficiente, estilizado com Tailwind CSS e DaisyUI para uma interface moderna e responsiva.\n\nOs dados são consumidos via Axios, garantindo requisições otimizadas e dinâmicas.\n\nO projeto destaca boas práticas de consumo de APIs RESTful, estado gerenciado de forma eficiente e uma experiência fluida para o usuário.",
+    imagem: icons.apiRickMorty,
+    tecnologias: ["React", "Vite", "Tailwind CSS", "DaisyUI", "Axios", "RESTful API"],
+    github: "https://github.com/GeorgeBastosFerreiraFH/rick-and-morty-api-v2",
+    demo: "https://rick-api-morty.netlify.app/",
+    destaque: true,
+  },
+  {
+    id: 3,
     titulo: "Tela de Login e Cadastro 🔐",
     descricao:
       "Este projeto é uma interface simples e funcional de login e cadastro, que simula requisições a uma API utilizando dados mockados. Validação de E-mail: O sistema verifica se o e-mail informado já está cadastrado em uma lista pré-definida. Cadastro Simulado: Caso o e-mail não exista, ele é adicionado à lista e exibida uma mensagem de sucesso. Login Simulado: Apenas e-mails previamente cadastrados podem acessar. Experiência Fluida: O usuário pode alternar entre as telas de login e cadastro facilmente. O objetivo deste projeto é demonstrar conhecimentos em manipulação do DOM, eventos JavaScript e simulação de chamadas assíncronas.",
